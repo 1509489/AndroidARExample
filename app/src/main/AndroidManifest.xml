@@ -20,6 +20,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             android:usesCleartextTraffic="true"
+            android:largeHeap="true"
             tools:ignore="GoogleAppIndexingWarning"><!--
          Indicates that app requires ARCore ("AR Required"). Causes Google
          Play Store to download and install ARCore when the app is installed.

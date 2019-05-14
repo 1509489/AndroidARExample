@@ -32,7 +32,7 @@ import java.io.IOException
 class MainActivity : AppCompatActivity() {
     private lateinit var arFragment: ArFragment
 
-    private val pointer = PointerDrawable()
+    private val pointer = PointerDrawable(this)
     private var isTracking: Boolean = false
     private var isHitting: Boolean = false
 
